@@ -1,0 +1,22 @@
+<ion-app>
+  <ion-content>
+    <ion-item>
+      <ion-label position="floating">Primeiro número</ion-label>
+      <ion-input [(ngModel)]="num1"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Segundo número</ion-label>
+      <ion-input [(ngModel)]="num2"></ion-input>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-button color="dark" (click)="somar()">
+      <ion-icon name="add-outline"></ion-icon>
+      Somar
+    </ion-button>
+    <br><br>
+    <ion-label>{{resultado}}</ion-label>
+  </ion-content>
+</ion-app>
+<!--criis do ceu-->
